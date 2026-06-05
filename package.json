@@ -1,0 +1,43 @@
+{
+  "name": "jobber-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for Jobber (home services SaaS) — exposes tools for clients, jobs, invoices, and quotes via the Jobber GraphQL API.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "jobber-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "inspect": "npm run build && npx @modelcontextprotocol/inspector node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "jobber",
+    "home-services",
+    "graphql",
+    "field-service"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "graphql": "^16.9.0",
+    "graphql-request": "^6.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
