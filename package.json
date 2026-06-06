@@ -1,7 +1,7 @@
 {
   "name": "jobber-mcp-server",
   "version": "0.1.0",
-  "description": "MCP server for Jobber (home services SaaS) — exposes tools for clients, jobs, invoices, and quotes via the Jobber GraphQL API.",
+  "description": "MCP server for Jobber (home services SaaS) \u2014 exposes tools for clients, jobs, invoices, and quotes via the Jobber GraphQL API.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -39,5 +39,17 @@
   "devDependencies": {
     "@types/node": "^20.14.0",
     "typescript": "^5.5.0"
+  },
+  "mcpName": "io.github.friendlygeorge/jobber-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/friendlygeorge/jobber-mcp-server.git"
+  },
+  "homepage": "https://github.com/friendlygeorge/jobber-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/friendlygeorge/jobber-mcp-server/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
