@@ -1,7 +1,7 @@
 {
-  "name": "jobber-mcp-server",
-  "version": "0.1.0",
-  "description": "MCP server for Jobber (home services SaaS) \u2014 exposes tools for clients, jobs, invoices, and quotes via the Jobber GraphQL API.",
+  "name": "@supernova123/jobber-mcp-server",
+  "version": "0.1.3",
+  "description": "MCP server for Jobber \u2014 clients, jobs, invoices, quotes, and scheduling for Claude, Cursor, and AI agents",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -20,11 +20,19 @@
   },
   "keywords": [
     "mcp",
-    "model-context-protocol",
+    "mcp-server",
     "jobber",
     "home-services",
     "graphql",
-    "field-service"
+    "field-service",
+    "jobber-mcp",
+    "ai-agent",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "chatgpt",
+    "claude-desktop",
+    "ai"
   ],
   "license": "MIT",
   "engines": {
